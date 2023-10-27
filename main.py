@@ -4,9 +4,6 @@ from sqlite3 import *
 
 connection = connect('testDB2.db')
 curs = connection.cursor()
-
-def print_hi(name):
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 def input_d(tec_id):
     global L1, L2, B1, B2, exentz, malpolz, bolpolz, roz1, x1, y1, z1, roz2, x2, y2, z2, ras1, az1, zen1, ras2, az2, zen2
 #    a=float(input())
